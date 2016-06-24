@@ -25,11 +25,13 @@ public class AddItemSort {
         groceries.add ("Lettuces");
         groceries.add("Mangos");
         
+        System.out.println ("==================================================="); 
         System.out.println ("Unsorted Product:   \n"
         + groceries.toString()); //Prints the list of unsorted Products in the ArrayList 
         
         Collections.sort(groceries); //Uses the Collections Class to sort the Array List
         
+        System.out.println ("==================================================="); 
         System.out.println ("Sorted Product:   \n" //Prints the list of sorted Products in the ArrayList
                 + groceries.toString());
         
@@ -63,12 +65,14 @@ public class AddItemSort {
                 choice=addMore;
                 } 
           }
-                
+        
+        System.out.println ("===================================================");         
         System.out.println ("Unsorted Products:   \n"
         + groceries.toString()); //Prints unsorted list of Product after the Product is added
         
         Collections.sort(groceries); //Sort the Array List after the Product is added
         
+        System.out.println ("==================================================="); 
         System.out.println ("Sorted Product:   \n"
                 + groceries.toString()); //Prints sorted list of Product after the Product is added
         
